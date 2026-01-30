@@ -29,6 +29,8 @@ SecureGuard enforces zero-trust encryption at the file level, closing that gap.
 - logging
 - tkinter for optional GUI
 
+Note: In a real enterprise, audit logs should be centralized, append-only and tamper-evident. Local log files can be edited by users with filesystem access. Future improvements to this could include HMAC-signed log entries or integration with a secure logging service.
+
 ## Disclaimer
 
 This project is for educational and portfolio purposes.
